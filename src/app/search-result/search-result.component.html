@@ -1,0 +1,18 @@
+<div>
+  <div class="thumbnail">
+    <img src="{{ result.thumbnailUrl }}" style="width: 100%" />
+    <div class="caption">
+      <h4>{{ result.title }}</h4>
+      <p>{{ result.description }}</p>
+      <p>
+        <a
+          routerLink="/play/{{ result.id }}"
+          class="btn btn-success"
+          role="button"
+        >
+          Watch</a
+        >
+      </p>
+    </div>
+  </div>
+</div>
